@@ -4,7 +4,9 @@ import numpy as np
 from pydantic import BaseModel
 
 import ultralytics
-from ultralytics.yolo.engine.results import Results
+#from ultralytics.yolo.engine.results import Results
+from ultralytics.engine.results import Results
+
 
 # Define keypoint
 class GetKeypoint(BaseModel):
